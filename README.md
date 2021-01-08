@@ -3,9 +3,13 @@
 ## Please submit answers in your own words
 
 1. What is a database? (2-3 sentances)
+Database is an organized collection of data that is typically stored and accessed electronically from a computer system. In the case of more complex databases, formal design and modeling techniques are often used to develop databases.
 
 2. Name three types of databases and give one sentance explaining each kind
-
+Hierarchical databases. Organize data into a tree structure which uses a "one-to-many" relationship to link different levels of database
+Network databases.
+Relational databases. It is the combination of data and resource sharing.
+Object-oriented databases. Some datas have connections between each other.
 3. Given the following database table, write the result that the following SQL would return (Example http://sqlfiddle.com/#!17/f95cb/4/0)
 
 table: `vegetables`
@@ -20,7 +24,9 @@ a)
 ```
 SELECT id, name FROM vegetables where id = 2
 ```
+id 2 name banana
 b) 
 ```
 SELECT id, name FROM vegetables where created_at < '2018-12-5 19:39:53.442867'
 ```
+name apple
